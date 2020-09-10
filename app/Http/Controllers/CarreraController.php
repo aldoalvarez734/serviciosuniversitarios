@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Alumno;
+use App\Carrera;
 use App\Coordinacion;
 
-class AlumnosController extends Controller
+class CarreraController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,13 +16,21 @@ class AlumnosController extends Controller
     public function index()
     {
         //
-        $alumnos= Alumno::with('semestre')
-        ->with('carrera')
-        ->get();
-        // select * from alumnos;
+       // $carrreras=Carrera::all();
+                // select * from cat_carrera;
 
-        return $alumnos;
+
+        $carreras=Carrera::with('coordinacion')->get();
+
+        //  SELECT * FROM cat_carrera 
+        //      join cat_coordinacion 
+        //  on cat_coordinacion.id=cat_carrera.coordinacion_id;
+        //
+
+
+        return $carreras;
     }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -30,17 +38,12 @@ class AlumnosController extends Controller
      */
     public function create()
     {
-        //
-     //   return "Aqui vamos a guardar un nuevo alumnos";
-
-        $nuevo=Coordinacion::create([
-                            'nombre_coordinacion'=>'Coordinación de Ciencias de la Salud'
+        
+          $nuevo=Carrera::create([
+                            'nombre_carrera'=>'Ingeniería en Produccion Multimedia',
+                            'coordinacion_id'=>1
                         ]);
         return $nuevo;
-
-        //insert into alumnos (matricula,carrera_id,nombre,paterno,materno,semestre_id,estatus_id)values('2016068',1,'maria','josefa','rdx',7,1);
-
-      
     }
 
     /**
@@ -99,4 +102,3 @@ class AlumnosController extends Controller
         //
     }
 }
-    

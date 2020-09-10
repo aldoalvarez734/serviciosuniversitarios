@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('/alumnos','AlumnosController@index');
 Route::get('/nuevo','AlumnosController@create');
+Route::get('/carreras','CarreraController@index');
+
+Route::get('/nueva_carrera','CarreraController@create');

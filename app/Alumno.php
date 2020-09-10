@@ -16,6 +16,23 @@ class Alumno extends Model
 						'materno',
 						'semestre_id',
 						'estatus_id'];
+
+
+
+	public function carrera()
+	{
+		return $this->belongsTo('App\Carrera');
+	}
+
+	public function semestre()
+	{
+		return $this->belongsTo('App\Semestre');
+	}
+
+	public function estatus_alumno()
+	{
+		return $this->belongsTo('App\EstatusAlumno');
+	}
 }
 
 
