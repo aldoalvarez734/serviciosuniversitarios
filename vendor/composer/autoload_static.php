@@ -429,6 +429,8 @@ class ComposerStaticInitb0421aedf05486e6621b973428d1632c
 
     public static $classMap = array (
         'App\\Alumno' => __DIR__ . '/../..' . '/app/Alumno.php',
+        'App\\Area' => __DIR__ . '/../..' . '/app/Area.php',
+        'App\\Campus' => __DIR__ . '/../..' . '/app/Campus.php',
         'App\\Carrera' => __DIR__ . '/../..' . '/app/Carrera.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Coordinacion' => __DIR__ . '/../..' . '/app/Coordinacion.php',
@@ -442,6 +444,7 @@ class ComposerStaticInitb0421aedf05486e6621b973428d1632c
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+        'App\\Http\\Controllers\\CarreraController' => __DIR__ . '/../..' . '/app/Http/Controllers/CarreraController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\EventoController' => __DIR__ . '/../..' . '/app/Http/Controllers/EventoController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
