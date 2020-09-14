@@ -20,3 +20,11 @@ Route::get('/nuevo','AlumnosController@create');
 Route::get('/carreras','CarreraController@index');
 
 Route::get('/nueva_carrera','CarreraController@create');
+
+
+Route::get('/campus','CampusController@index');
+Route::get('/nuevocampus','CampusController@create');
+
+Route::get('/areas','AreaController@index');
+Route::get('/nuevaarea','AreaController@create');
+

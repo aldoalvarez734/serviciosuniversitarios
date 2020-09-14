@@ -18,6 +18,6 @@ class Area extends Model
     
     public function campus()
     {
-    	return $this->BelongTo('App\Campus');
+    	return $this->belongsTo('App\Campus');
     }
 }
