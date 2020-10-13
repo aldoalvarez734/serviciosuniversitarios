@@ -13,4 +13,10 @@ class Carrera extends Model
 							'activo',];
 }
 
+public function coordinacion()
+{
+	return $this->belongsTo()
+}
+
+
 
