@@ -26,7 +26,7 @@ class CarreraControler extends Controller
      */
     public function create()
     {
-        $nuevo=Carrera::create
+        $nuevo=Carrera::create;
     }
 
     /**
