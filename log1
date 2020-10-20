@@ -1,0 +1,31 @@
+* [31mcfda23a[m -[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m Borré los salu2.txt y puse un ; que le faltaba a alguien más [32m(39 minutes ago) [1;34m<Roberto Villegas>[m
+* [31mf96957b[m -[m[m Corrección en migración [32m(8 hours ago) [1;34m<Roberto Villegas>[m
+* [31mbb223d5[m -[m[m Modelo y controlador de Caja [32m(8 hours ago) [1;34m<Roberto Villegas>[m
+*   [31m82cd839[m -[m[m Merge branch 'master' of https://github.com/aldoalvarez734/serviciosuniversitarios into master [32m(9 hours ago) [1;34m<Roberto Villegas>[m
+[32m|[m[33m\[m  
+[32m|[m *   [31m5b1868d[m -[m[m Merge branch 'master' of https://github.com/aldoalvarez734/serviciosuniversitarios into master [32m(9 hours ago) [1;34m<DESKTOP-MUKPOOP\lrdsl>[m
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m|[m [31m63ad17d[m -[m[m Modelo Carrera [32m(9 hours ago) [1;34m<DESKTOP-MUKPOOP\lrdsl>[m
+* [35m|[m [35m|[m [31mf58173b[m -[m[m Composer instalado, .gitignore actualizado [32m(9 hours ago) [1;34m<Roberto Villegas>[m
+* [35m|[m [35m|[m [31m2e66a4d[m -[m[m gitignore actualizado [32m(9 hours ago) [1;34m<Roberto Villegas>[m
+[35m|[m [35m|[m[35m/[m  
+[35m|[m[35m/[m[35m|[m   
+* [35m|[m   [31m87edffd[m -[m[m Merge branch 'master' of https://github.com/aldoalvarez734/serviciosuniversitarios into master [32m(9 hours ago) [1;34m<DESKTOP-8525Q1A\Sheila>[m
+[36m|[m[1;31m\[m [35m\[m  
+[36m|[m * [35m\[m   [31m8bdf95c[m -[m[m Merge remote-tracking branch 'origin/master' [32m(4 days ago) [1;34m<Roberto Villegas>[m
+[36m|[m [1;32m|[m[1;33m\[m [35m\[m  
+[36m|[m [1;32m|[m * [35m|[m [31m7a242c4[m -[m[m mi apoirtacion [32m(4 days ago) [1;34m<Aldo Alvarez>[m
+[36m|[m [1;32m|[m [35m|[m[35m/[m  
+[36m|[m * [35m/[m [31m2da0c35[m -[m[m Saludos [32m(4 days ago) [1;34m<Roberto Villegas>[m
+[36m|[m [35m|[m[35m/[m  
+[36m|[m * [31m3ffa6eb[m -[m[m Modelo Alumno y primer migracíon [32m(4 days ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31maa8278e[m -[m[m Primer commit del proyecto [32m(4 days ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31m90e0867[m -[m[m nuevo inicio2 [32m(4 days ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31m28aa0a6[m -[m[m nuevo inicio [32m(4 days ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31m2d84a23[m -[m[m Adicion de dos controllers nuevos y edición de rutas web y modelo Area [32m(4 weeks ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31m7633ab6[m -[m[m Nuevos modelos de Area y Campus [32m(4 weeks ago) [1;34m<Aldo Alvarez>[m
+[36m|[m * [31m2215a4e[m -[m[m Archivos de la clase del  8 de septiembre [32m(5 weeks ago) [1;34m<Aldo Alvarez>[m
+* [1;33m|[m [31mcd95385[m -[m[m modelo coordinacion [32m(9 hours ago) [1;34m<DESKTOP-8525Q1A\Sheila>[m
+[1;33m|[m[1;33m/[m  
+* [31m68859be[m -[m[m Proyecto en clase Push 1 [32m(5 weeks ago) [1;34m<Aldo Alvarez>[m
+* [31m0fd04da[m -[m[m Initial commit [32m(6 weeks ago) [1;34m<aldoalvarez734>[m
