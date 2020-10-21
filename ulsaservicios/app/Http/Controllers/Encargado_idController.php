@@ -29,14 +29,13 @@ class Encargado_idController extends Controller
     public function create()
     {
         //
-        $nat_EncargadoID =
-            Encargado_id::create([
-                'Encargado_id'=>101,
-                'Cargo'=>'Ingeniero',
-                'Nombre'=>'Carlos'
-                'Paterno'=>'Sanchez'
-                'Materno'=>'Tamez',
-            ]);
+        $nat_EncargadoID = Encargado_id::create([
+                    'Encargado_id'=>101,
+                    'Cargo'=>'Ingeniero',
+                    'Nombre'=>'Carlos',
+                    'Paterno'=>'Sanchez',
+                    'Materno'=>'Tamez'
+                ]);
 
         return $nat_EncargadoID;
     }

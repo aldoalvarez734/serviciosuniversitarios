@@ -16,7 +16,6 @@ class CreateLibrosTable extends Migration
         Schema::create('libros', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-        
             $table->string('titulo',100);
             $table->string('autor',100);
             $table->string('edicion',80);
