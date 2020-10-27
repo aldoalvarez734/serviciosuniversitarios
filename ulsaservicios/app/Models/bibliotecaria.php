@@ -10,6 +10,6 @@ class bibliotecaria extends Model
 	 protected $table='sheila_bibliotecarias';
      protected $fillable=['nombre',
                           'clave',
-                          'campus']
+                          'campus'];
     use HasFactory;
 }

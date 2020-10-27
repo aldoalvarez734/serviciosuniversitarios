@@ -7,8 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class coordinacion extends Model
 {
-	  protected $table=>'Coordinacion'
-    protected $fillable=[]
+    protected $table ='Coordinacion';
+      
+    protected $fillable=[];
     
     use HasFactory;
 }
