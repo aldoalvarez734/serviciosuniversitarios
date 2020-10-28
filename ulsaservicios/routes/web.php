@@ -39,3 +39,8 @@ Route::get('/evaluacion_del_servicio_becarios', 'EvaluacionDelSBController@index
 Route::get('/nuevo/evaluacion_del_servicio_becarios', 'EvaluacionDelSBController@create');
 Route::get('/oficinas', 'OficinaController@index');
 Route::get('/nuevo/oficinas', 'OficinaController@create');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
