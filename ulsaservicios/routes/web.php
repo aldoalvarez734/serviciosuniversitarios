@@ -21,3 +21,9 @@ Route::get('/alumnos', 'AlumnosController@index');
 Route::get('/nuevo', 'AlumnosController@create');
 Route::get('/carreras', 'CarrerasControler@index');
 Route::get('/caja', 'CajaControler@index');
+
+//Abraham
+Route::get('/controlescolar', 'ControlEscolar@index');
+Route::get('/nuevo/controlescolar', 'ControlEscolar@create');
+Route::get('/tramite', 'tramite_id@index');
+Route::get('/nuevo/tramite', 'tramite_id@create');
