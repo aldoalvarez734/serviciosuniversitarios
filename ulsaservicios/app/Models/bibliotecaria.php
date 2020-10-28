@@ -7,9 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class bibliotecaria extends Model
 {
-	 protected $table='sheila_bibliotecarias';
-     protected $fillable=['nombre',
-                          'clave',
-                          'campus']
     use HasFactory;
+    protected $table='sheila_bibliotecarias';
+    protected $fillable=[
+        'nombre',
+        'clave',
+        'campus'];
 }

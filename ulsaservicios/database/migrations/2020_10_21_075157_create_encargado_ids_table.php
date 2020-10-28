@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateLibrosTable extends Migration
+class CreateEncargadoIdsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,13 @@ class CreateLibrosTable extends Migration
      */
     public function up()
     {
-        Schema::create('libros', function (Blueprint $table) {
+        Schema::create('encargado_ids', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
-            $table->string('titulo',100);
-            $table->string('autor',100);
-            $table->string('edicion',80);
-            $table->string('genero',30);
-            $table->year('anio');
-            $table->integer('estatus_id');
+            $table->integer('Encargado_id');
+            $table->string('Cargo',11);
+            $table->string('Nombre',20);
+            $table->string('Paterno',20);
+            $table->string('Materno',20);
             $table->timestamps();
         });
     }
@@ -33,6 +31,6 @@ class CreateLibrosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('libros');
+        Schema::dropIfExists('encargado_ids');
     }
 }
