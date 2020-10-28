@@ -42,5 +42,11 @@ Route::get('/nuevo/oficinas', 'OficinaController@create');
 
 Auth::routes();
 
+// Rutas de Abraham
+Route::get('/controlescolar', 'ControlEscolar@index');
+Route::get('/nuevo/controlescolar', 'ControlEscolar@create');
+Route::get('/tramite', 'tramite_id@index');
+Route::get('/nuevo/tramite', 'tramite_id@create');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
