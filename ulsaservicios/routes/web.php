@@ -21,3 +21,7 @@ Route::get('/alumnos', 'AlumnosController@index');
 Route::get('/nuevo', 'AlumnosController@create');
 Route::get('/carreras', 'CarrerasControler@index');
 Route::get('/caja', 'CajaControler@index');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
