@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <title>AdminLTE 3 | Dashboard 3</title>
+<!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <title>{{ config('app.name', 'Laravel') }}</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -731,6 +732,10 @@ to get the desired effect
     <div class="content">
       <div class="container-fluid">
         <div class="row">
+<!-- Codigo de donde se reescriben los modulos de cada alumno-->     
+          @yield('content')
+
+<!-- Codigo de donde se reescriben los modulos de cada alumno-->
 
         </div>
         <!-- /.row -->

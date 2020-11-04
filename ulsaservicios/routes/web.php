@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +41,10 @@ Route::get('/evaluacion_del_servicio_becarios', 'EvaluacionDelSBController@index
 Route::get('/nuevo/evaluacion_del_servicio_becarios', 'EvaluacionDelSBController@create');
 Route::get('/oficinas', 'OficinaController@index');
 Route::get('/nuevo/oficinas', 'OficinaController@create');
+
+
+Route::get('/semestre', [App\Http\Controllers\SemestreController::class,'index']);
+
 
 Auth::routes();
 
