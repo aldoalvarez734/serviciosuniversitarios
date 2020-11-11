@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Campus extends Model
 {
-    use HasFactory;
-    protected $table = 'campus';
+    protected $table = 'cat_campus';
 
     protected $fillable = [
-        'campus_id',
-        'coordinacion_id',
+        'campus',
+        'usuario_id',
+        'activo',
     ];
     
 }

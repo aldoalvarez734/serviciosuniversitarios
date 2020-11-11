@@ -18,7 +18,9 @@ class CampusController extends Controller
         //
         $campus = Campus::all();
 
-        return $campus;
+       // return $campus;
+
+        return view('campus.index',compact("campus"));
     }
 
     /**
