@@ -9,6 +9,10 @@
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">ULSA Victoria - Campus</h3>
+
+              </div>
+              <div class="container">
+               <a href="/nuevocampus" class="btn btn-success">Nuevo</a>
               </div>
               <!-- /.card-header -->
               <div class="card-body">

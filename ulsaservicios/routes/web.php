@@ -57,6 +57,8 @@ Route::get('/nuevo/tramite',[App\Http\Controllers\tramite_id::class,'create']);
 
 //Rutas de campus
 Route::get('/campus', [App\Http\Controllers\CampusController::class,'index']);
+Route::get('/nuevocampus', [App\Http\Controllers\CampusController::class,'create']);
+Route::post('/guardarcampus', [App\Http\Controllers\CampusController::class,'store']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

@@ -16,9 +16,7 @@ class CampusController extends Controller
     public function index()
     {
         //
-        $campus = Campus::all();
-
-       // return $campus;
+        $campus = Campus::all(); // return $campus;
 
         return view('campus.index',compact("campus"));
     }
@@ -30,13 +28,15 @@ class CampusController extends Controller
      */
     public function create()
     {
-        $campus =
-        Campus::create([
-            'campus_id' => '1',
-            'coordinacion_id' => 00001,
-        ]);
+    //     $campus =
+    //     Campus::create([
+    //         'campus_id' => '1',
+    //         'coordinacion_id' => 00001,
+    //     ]);
 
-    return $campus;   //
+    // return $campus;   //
+
+        return view('campus.nuevo_campus');
     }
 
     /**
@@ -48,6 +48,11 @@ class CampusController extends Controller
     public function store(Request $request)
     {
         //
+        $data=$request->all();
+
+        Campus::create( $data);
+
+        return 'Hola';
     }
 
     /**
