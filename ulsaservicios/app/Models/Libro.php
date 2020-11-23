@@ -11,10 +11,12 @@ class Libro extends Model
    
     private $table = 'libros';
 
-    private $fillable =     'titulo,
-                            autor,
-                            edicion,
-                            genero,
-                            anio,
-                            estatus_id';
+    private $fillable = ['titulo',
+                            'autor',
+                            'edicion',
+                            'genero',
+                            'anio',
+                            'estatus_id'];
 }
+
+

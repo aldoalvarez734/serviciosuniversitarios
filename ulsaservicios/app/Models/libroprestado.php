@@ -8,8 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class libroprestado extends Model
 {
     
-         protected $table='sheila_libro_prestados';
-         protected $fillable=['código_id'];
+         protected $table='libros_prestados';
+         protected $fillable=['libro_id',
+     						'fecha_prestamo',
+     						'fecha_devolucion',
+     						'alumno_id',
+     						'campus_id'];
 
-    use HasFactory;
+ 
 }
