@@ -62,3 +62,5 @@ Route::post('/guardarcampus', [App\Http\Controllers\CampusController::class,'sto
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/librosprestados', [App\Http\Controllers\libroprestadoController::class,'index']);
+
