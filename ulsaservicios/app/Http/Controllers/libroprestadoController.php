@@ -14,6 +14,7 @@ class libroprestadoController extends Controller
     public function index()
     {
         //
+        return view('biblioteca.librosprestados.index');
     }
 
     /**
