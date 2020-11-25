@@ -22,7 +22,8 @@ Route::get('/', function () {
 Route::get('/alumnos', [App\Http\Controllers\AlumnosController::class,'index']);
 Route::get('/nuevo', [App\Http\Controllers\AlumnosController::class,'create']);
 Route::get('/carreras', [App\Http\Controllers\CarrerasControler::class,'index']);
-Route::get('/caja', [App\Http\Controllers\CajaControler::class,'index']);
+Route::get('/caja', [App\Http\Controllers\CajaController::class,'index']);
+Route::get('/nuevacaja', [App\Http\Controllers\CajaController::class,'create']);
 
 //NataRutas
 Route::get('/documento__becas', [App\Http\Controllers\Documento_BecaController::class,'index']);
