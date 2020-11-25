@@ -65,3 +65,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/librosprestados', [App\Http\Controllers\libroprestadoController::class,'index']);
 
+//Rutas de Renovacion de Beca
+Route::get('/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'index']);
+Route::get('/nuevo/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'create']);
+Route::post('/guardar/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'store']);

@@ -260,7 +260,7 @@ to get the desired effect
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="/Tramite_Renovacion_de_beca" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Renovación de Beca</p>
                 </a>
