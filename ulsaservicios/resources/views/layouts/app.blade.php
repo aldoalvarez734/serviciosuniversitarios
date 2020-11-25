@@ -190,7 +190,7 @@ to get the desired effect
           <!-- Modulo de biblioteca -->
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-book"></i>
               <p>
                 BIBLIOTECA
                 <i class="right fas fa-angle-left"></i>
@@ -221,7 +221,7 @@ to get the desired effect
           <!-- Modulo de control escolar -->
           <li class="nav-item has-treeview menu-close">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-id-card"></i>
               <p>
                 CONTROL ESCOLAR
                 <i class="right fas fa-angle-left"></i>
@@ -240,14 +240,45 @@ to get the desired effect
                   <p>Solicitud de constancias</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Solicitud de Boleta</p>
+                </a>
+              </li>
             </ul>
           </li>
           <!-- Modulo de control escolar -->          
+                    <!-- Modulo de servicios universitarios -->
+          <li class="nav-item has-treeview menu-close">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-concierge-bell"></i>
+              <p>
+                SERVICIOS
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Renovación de Beca</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Solicitudes previas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- Modulo de servicios universitarios -->          
           
            <!-- Modulo de configuración --> 
           <li class="nav-item has-treeview menu-close">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-cog"></i>
               <p>
                 CONFIGURACIÓN
                 <i class="right fas fa-angle-left"></i>
