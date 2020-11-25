@@ -243,6 +243,31 @@ to get the desired effect
             </ul>
           </li>
           <!-- Modulo de control escolar -->          
+                    <!-- Modulo de servicios universitarios -->
+          <li class="nav-item has-treeview menu-close">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                SERVICIOS
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Renovación de Beca</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Solicitudes previas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- Modulo de servicios universitarios -->          
           
            <!-- Modulo de configuración --> 
           <li class="nav-item has-treeview menu-close">
