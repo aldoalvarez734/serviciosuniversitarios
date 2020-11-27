@@ -9,7 +9,7 @@ class Caja extends Model
 {
     use HasFactory;
 
-    protected $table = 'roberto__modelo_cajas';
+    protected $table = 'cajas';
 
     protected $fillable = [
         'tramite_id',

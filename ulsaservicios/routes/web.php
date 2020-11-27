@@ -22,7 +22,8 @@ Route::get('/', function () {
 Route::get('/alumnos', [App\Http\Controllers\AlumnosController::class,'index']);
 Route::get('/nuevo', [App\Http\Controllers\AlumnosController::class,'create']);
 Route::get('/carreras', [App\Http\Controllers\CarrerasControler::class,'index']);
-Route::get('/caja', [App\Http\Controllers\CajaControler::class,'index']);
+Route::get('/caja', [App\Http\Controllers\CajaController::class,'index']);
+Route::get('/nuevacaja', [App\Http\Controllers\CajaController::class,'create']);
 
 //NataRutas
 Route::get('/documento__becas', [App\Http\Controllers\Documento_BecaController::class,'index']);
@@ -64,3 +65,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/librosprestados', [App\Http\Controllers\libroprestadoController::class,'index']);
 
+//Rutas de Renovacion de Beca
+Route::get('/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'index']);
+Route::get('/nuevo/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'create']);
+Route::post('/guardar/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'store']);
