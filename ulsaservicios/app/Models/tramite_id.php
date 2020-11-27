@@ -12,6 +12,8 @@ class tramite_id extends Model
 
     protected $fillable = [
         'tramite_id',
-        'nombre_de_tramite'];
+        'nombre_de_tramite',
+    	'costo',
+    	'oficina_id'];
 }
 

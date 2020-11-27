@@ -17,9 +17,9 @@ class CreateDocumentoBecasTable extends Migration
             $table->id();
             $table->integer('Documento_id');
             $table->integer('matricula');
-            $table->int('PorcentajeTotal_%');
-            $table->int('Credito_%');
-            $table->int('Beca_%');
+            $table->integer('PorcentajeTotal_poncentaje');
+            $table->integer('Credito_porcentaje');
+            $table->integer('Beca_porcentaje');
             $table->timestamps();
         });
     }

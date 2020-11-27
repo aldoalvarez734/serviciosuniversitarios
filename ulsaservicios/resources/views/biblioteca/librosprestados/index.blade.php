@@ -10,7 +10,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Mis libros</a></li>
-              <li class="breadcrumb-item active">Leídos</li>
+              <li class="breadcrumb-item active">Leídos de {{ Auth::user()->id }}</li>
             </ol>
           </div>
         </div>
@@ -23,7 +23,7 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Libros Leídos</h3>
+          <h3 class="card-title">Libros Leídos de {{ Auth::user()->name }}</h3>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">

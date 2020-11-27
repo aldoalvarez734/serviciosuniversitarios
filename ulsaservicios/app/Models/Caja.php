@@ -14,6 +14,10 @@ class Caja extends Model
     protected $fillable = [
         'tramite_id',
         'matricula_id',
-        'fecha'
+        'fecha',
+        'costo',
+        'cantidad',
+        'importe',
+        'estatus_cobro_id'
     ];
 }

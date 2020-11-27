@@ -20,7 +20,7 @@ class CreateLibrosTable extends Migration
             $table->string('autor',100);
             $table->string('edicion',80);
             $table->string('genero',30);
-            $table->year('anio');
+            $table->integer('anio');
             $table->integer('estatus_id');
             $table->timestamps();
         });
