@@ -35,7 +35,8 @@ class PrestamosController extends Controller
             'fecha_prestamo' => '2020-11-30 16:00:00',
             'hora_prestamo' => '2020-11-30 16:00:00',
             'fecha_prestamo_fin' => '2020-11-30 17:00:00',
-            'hora_prestamo_fin' => '2020-11-30 17:00:00'
+            'hora_prestamo_fin' => '2020-11-30 17:00:00',
+            'estatus_prestamo_id' => '1'
         ]);
 
         return $prestamoq;
