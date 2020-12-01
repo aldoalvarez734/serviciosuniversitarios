@@ -69,3 +69,7 @@ Route::get('/librosprestados', [App\Http\Controllers\libroprestadoController::cl
 Route::get('/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'index']);
 Route::get('/nuevo/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'create']);
 Route::post('/guardar/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'store']);
+
+//Rutas de Pablito
+Route::get('/prestamo', [App\Http\Controllers\PrestamosController::class,'index']);
+Route::get('/nuevoprestamo', [App\Http\Controllers\PrestamosController::class,'create']);

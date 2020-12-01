@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\models\prestamo;
 
 class PrestamosController extends Controller
 {
@@ -14,6 +15,9 @@ class PrestamosController extends Controller
     public function index()
     {
         //
+        $prestamoq = prestamo::all();
+
+        return $prestamoq;
     }
 
     /**
@@ -24,6 +28,17 @@ class PrestamosController extends Controller
     public function create()
     {
         //
+        $prestamoq = prestamo::create([
+            'matricula_id' => '20160316',
+            'oficina_id' => '2',
+            'costo' => '0',
+            'fecha_prestamo' => '2020-11-30 16:00:00',
+            'hora_prestamo' => '2020-11-30 16:00:00',
+            'fecha_prestamo_fin' => '2020-11-30 17:00:00',
+            'hora_prestamo_fin' => '2020-11-30 17:00:00'
+        ]);
+
+        return $prestamoq;
     }
 
     /**
