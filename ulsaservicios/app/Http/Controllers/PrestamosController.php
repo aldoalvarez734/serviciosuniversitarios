@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\models\prestamo;
+use App\Models\prestamo;
 
 class PrestamosController extends Controller
 {
