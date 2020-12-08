@@ -14,7 +14,7 @@ class libroprestadoController extends Controller
     public function index()
     {
         //
-        return view('biblioteca.librosprestados.index');
+        return view('biblioteca.SolicitudPrestamo.prestamo'); 
     }
 
     /**
@@ -25,6 +25,16 @@ class libroprestadoController extends Controller
     public function create()
     {
         //
+      //  $libroprestado =
+        //    libroprestado::create([
+          //      'libro_id',
+            //                'fecha_prestamo',
+              //              'fecha_devolucion',
+                //            'alumno_id',
+                 //           'campus_id'
+           // ]);
+
+     //   return $libroprestado;
     }
 
     /**

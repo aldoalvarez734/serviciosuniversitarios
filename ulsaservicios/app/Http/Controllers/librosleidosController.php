@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class bibliotecariaController extends Controller
+class librosleidosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,6 +14,7 @@ class bibliotecariaController extends Controller
     public function index()
     {
         //
+         return view('biblioteca.librosprestados.index');
     }
 
     /**

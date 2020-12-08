@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class libroprestado extends Model
+class librosleidos extends Model
 {
-    
-         protected $table='libros_prestados';
+  
+         protected $table='libros_leidos';
          protected $fillable=['libro_id',
-     						'fecha_renovacion',
-     						'fecha_devolucion',
+     						'titulo',
+     						'devuelto',
+     						'status_id',
      						'alumno_id',
      						'campus_id']; 
 
- 
 }

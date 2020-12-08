@@ -198,9 +198,9 @@ to get the desired effect
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/librosprestados" class="nav-link">
+                <a href="/librosleidos" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Mis prestamos</p>
+                  <p>Libros Leidos</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -209,12 +209,7 @@ to get the desired effect
                   <p>Solicitud de libros</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Renovaciones</p>
-                </a>
-              </li>
+              
             </ul>
           </li>
           <!-- Modulo de biblioteca -->

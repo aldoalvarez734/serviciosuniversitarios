@@ -14,9 +14,10 @@ class Libro extends Model
     private $fillable = ['titulo',
                             'autor',
                             'edicion',
+                            'editorial,'
                             'genero',
                             'anio',
                             'estatus_id'];
 }
 
-
+ 

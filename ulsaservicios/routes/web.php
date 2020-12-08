@@ -63,7 +63,9 @@ Route::post('/guardarcampus', [App\Http\Controllers\CampusController::class,'sto
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/librosprestados', [App\Http\Controllers\libroprestadoController::class,'index']);
+Route::get('/renovacionlibro', [App\Http\Controllers\libroprestadoController::class,'index']);
+Route::get('/libros', [App\Http\Controllers\libroController::class,'index']);
+Route::get('/librosleidos', [App\Http\Controllers\librosleidosController::class,'index']);
 
 //Rutas de Renovacion de Beca
 Route::get('/Tramite_Renovacion_de_beca', [App\Http\Controllers\RenovacionBecaController::class,'index']);

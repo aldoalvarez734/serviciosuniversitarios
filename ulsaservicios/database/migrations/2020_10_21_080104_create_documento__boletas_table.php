@@ -33,4 +33,4 @@ class CreateDocumentoBoletasTable extends Migration
     {
         Schema::dropIfExists('documento__boletas');
     }
-}
+} 

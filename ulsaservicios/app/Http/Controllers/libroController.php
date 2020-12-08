@@ -13,7 +13,10 @@ class libroController extends Controller
      */
     public function index()
     {
-        //
+         
+        return view('biblioteca.libros.libro');
+    
+    
     }
 
     /**

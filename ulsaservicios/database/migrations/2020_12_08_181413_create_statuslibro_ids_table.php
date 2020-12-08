@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBibliotecariasTable extends Migration
+class CreateStatuslibroIdsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateBibliotecariasTable extends Migration
      */
     public function up()
     {
-        Schema::create('bibliotecarias', function (Blueprint $table) {
-            $table->id();
+        Schema::create('statuslibro_ids', function (Blueprint $table) {
+            $table->id('statuslibro_id');
             $table->timestamps();
+            $table->string('Estado', 15);
         });
     }
 
@@ -26,6 +27,6 @@ class CreateBibliotecariasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bibliotecarias');
+        Schema::dropIfExists('statuslibro_ids');
     }
 }
