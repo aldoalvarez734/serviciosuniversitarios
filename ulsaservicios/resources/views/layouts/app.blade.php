@@ -185,7 +185,7 @@ to get the desired effect
                         data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-<<<<<<< HEAD
+
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -223,7 +223,7 @@ to get the desired effect
                   <p>Renovaciones</p>
                 </a>
               </li>
-=======
+
                         <li class="nav-item">
                             <a href="pages/widgets.html" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
@@ -255,8 +255,6 @@ to get the desired effect
                                         <p>Solicitud de libros</p>
                                     </a>
                                 </li>
-
->>>>>>> 792a63af32e8cb073ec8525b052a24baadbc5885
             </ul>
           </li>
           <!-- Modulo de biblioteca -->
@@ -271,11 +269,11 @@ to get the desired effect
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-<<<<<<< HEAD
+
                 <a href="/historial_tramites" class="nav-link">
-=======
+
                 <a href="/solicitudes" class="nav-link">
->>>>>>> 792a63af32e8cb073ec8525b052a24baadbc5885
+
                   <i class="far fa-circle nav-icon"></i>
                   <p>Historial de tramites</p>
                 </a>

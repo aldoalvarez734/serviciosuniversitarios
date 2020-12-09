@@ -84,3 +84,6 @@ Route::get('/historial_tramites', [App\Http\Controllers\HistorialtramitesControl
 Route::get('/nuevo/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class,'create']);
 Route::post('/guardar/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class,'store']);
 
+//Lulu
+Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class,'index']);
+Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class,'index']);
