@@ -80,7 +80,7 @@
                           <span class="badge badge-success" >Entregado</span>
                       </td>
                       <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="/libros">
+                          <a class="btn btn-primary btn-sm" href="#">
                               <i class="fas fa-folder">
                               </i>
                               View
@@ -101,53 +101,7 @@
                    <div class="card-body p-0">
           <table class="table table-striped projects">
              
-<!--               
-              <tbody>
-                  <tr>
-                      <td>
-                          2
-                      </td>
-                      <td style="width: 20%">
-                          <a>
-                              Don Quijote de la Mancha
-                          </a>
-                          <br/>
-                          <small>
-                              Solicitado 11.01.2019
-                          </small>
-                      </td>
-                      <td style="width: 30%"> 1  
 
-                      </td>
-                      <td  style="width: 8%" class="text-center"> pendiente
-                      </td>
-                      <th style="width: 2%">
-                      </th>
-
-                      <td class="project-state" >
-                          <span class="badge badge-success" >Prestado</span>
-
-                      </td>
-                      <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="#">
-                              <i class="fas fa-folder">
-                              </i>
-                              View
-                          </a>
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
-                      </td>
-                  </tr> -->
-
-                  
 
 
 
