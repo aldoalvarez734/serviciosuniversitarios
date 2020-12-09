@@ -15,9 +15,7 @@ class constanciaController extends Controller
     public function index()
     {
         //
-        $constanciaq = constancia::all();
-
-        return $constanciaq;
+        return view('constanciaController.index');
     }
 
     /**
