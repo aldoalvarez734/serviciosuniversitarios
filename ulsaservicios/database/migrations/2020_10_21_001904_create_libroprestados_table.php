@@ -14,8 +14,9 @@ class CreateLibroprestadosTable extends Migration
     public function up()
     {
         Schema::create('libroprestados', function (Blueprint $table) {
-            $table->id('libro_id');
+            $table->id('renovacion_id');
             $table->timestamps();
+            $table->integer('libro_id');
             $table->dateTime('fecha_renovacion');
             $table->dateTime('fecha_devolucion');              
             $table->integer('alumno_id');
@@ -25,7 +26,7 @@ class CreateLibroprestadosTable extends Migration
         });
     }
 
-    /**
+    /** 
      * Reverse the migrations.
      *
      * @return void
