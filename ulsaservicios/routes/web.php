@@ -79,9 +79,8 @@ Route::get('/nuevoprestamo', [App\Http\Controllers\PrestamosController::class,'c
 //Rutas de Cruz
 Route::get('/constancia ', [App\Http\Controllers\constanciaController::class,'index']);
 
-<<<<<<< HEAD
-=======
-//Lulu
-Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class,'index']);
-Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class,'index']);
->>>>>>> 792a63af32e8cb073ec8525b052a24baadbc5885
+//Rutas de Historial de trámites Abrham
+Route::get('/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class,'index']);
+Route::get('/nuevo/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class,'create']);
+Route::post('/guardar/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class,'store']);
+
