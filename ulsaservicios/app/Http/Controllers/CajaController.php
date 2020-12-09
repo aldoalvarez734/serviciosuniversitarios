@@ -16,11 +16,11 @@ class CajaController extends Controller
     public function index()
     {
         //
-        // $caja = Caja::all();
+        $caja = Caja::all();
 
         // return $caja;
 
-        return view('Caja.caja');
+        return view('Caja.caja', compact("caja"));
     }
 
     /**
