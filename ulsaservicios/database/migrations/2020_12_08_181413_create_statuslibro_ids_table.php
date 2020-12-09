@@ -17,6 +17,7 @@ class CreateStatuslibroIdsTable extends Migration
             $table->id('statuslibro_id');
             $table->timestamps();
             $table->string('Estado', 15);
+            
         });
     }
 
@@ -30,3 +31,4 @@ class CreateStatuslibroIdsTable extends Migration
         Schema::dropIfExists('statuslibro_ids');
     }
 }
+ 

@@ -35,3 +35,4 @@ class CreateLibrosleidosTable extends Migration
         Schema::dropIfExists('librosleidos');
     }
 }
+ 
