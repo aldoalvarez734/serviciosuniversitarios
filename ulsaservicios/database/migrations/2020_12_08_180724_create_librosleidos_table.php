@@ -17,11 +17,11 @@ class CreateLibrosleidosTable extends Migration
             $table->id('libroleido_id');
             $table->timestamps();
             $table->integer('libro_id');
-            $table->string ('titulo'), 60;
-            $table->string ('devuelto'), 60;
+            $table->string('titulo');
+            $table->string('devuelto');
             $table->integer('status_id');
             $table->integer('alumno_id');
-            $table->integer('campus_id'];
+            $table->integer('campus_id');
         });
     }
 
@@ -35,4 +35,3 @@ class CreateLibrosleidosTable extends Migration
         Schema::dropIfExists('librosleidos');
     }
 }
- 

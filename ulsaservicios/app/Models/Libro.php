@@ -8,16 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Libro extends Model
 {
     use HasFactory;
-   
+
     private $table = 'libros';
 
-    private $fillable = ['titulo',
-                            'autor',
-                            'edicion',
-                            'editorial,'
-                            'genero',
-                            'anio',
-                            'estatus_id'];
+    private $fillable = [
+        'titulo',
+        'autor',
+        'edicion',
+        'editorial',
+        'genero',
+        'anio',
+        'estatus_id'
+    ];
 }
-
- 

@@ -59,6 +59,7 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Matrícula</th>
+                                            <th>Trámite</th>
                                             <th>Fecha</th>
                                             <th>Costo</th>
                                             <th>Cantidad</th>
