@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <meta charset="utf-8">
@@ -198,9 +198,9 @@ to get the desired effect
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/librosleidos" class="nav-link">
+                <a href="/librosprestados" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Libros Leidos</p>
+                  <p>Mis prestamos</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -209,7 +209,12 @@ to get the desired effect
                   <p>Solicitud de libros</p>
                 </a>
               </li>
-              
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Renovaciones</p>
+                </a>
+              </li>
             </ul>
           </li>
           <!-- Modulo de biblioteca -->
@@ -224,13 +229,13 @@ to get the desired effect
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="/historial_tramites" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Historial de tramites</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/constancia" class="nav-link">
+                <a href="./index.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Solicitud de constancias</p>
                 </a>
