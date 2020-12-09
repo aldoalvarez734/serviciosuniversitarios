@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\constancia;
 
-class constanciaController extends Controller
+class SolicitudesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +14,7 @@ class constanciaController extends Controller
     public function index()
     {
         //
-        return view('controlescolar.constancias.index');
+         return view('controlescolar.kardex.index');
     }
 
     /**
@@ -26,18 +25,6 @@ class constanciaController extends Controller
     public function create()
     {
         //
-        $constanciaq = constancia::create([
-            'matricula_id' => '20160299',
-            'oficina_id' => '2',
-            'costo' => '0',
-            'fecha_constancia' => '2020-12-08 16:00:00',
-            'carrera_id' => '1',
-            'estatus_constancia_id' => '1',
-            'constancia_id'=>'0',
-            'tipo_constancia_id'=>'1',
-        ]);
-
-        return $constanciaq;
     }
 
     /**

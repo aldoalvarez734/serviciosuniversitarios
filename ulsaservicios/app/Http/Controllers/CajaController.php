@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Caja;
+use Illuminate\Http\Request;
 
 class CajaController extends Controller
 {
@@ -16,9 +16,11 @@ class CajaController extends Controller
     public function index()
     {
         //
-        $caja = Caja::all();
+        // $caja = Caja::all();
 
-        return $caja;
+        // return $caja;
+
+        return view('Caja.caja');
     }
 
     /**
@@ -32,7 +34,7 @@ class CajaController extends Controller
             Caja::create([
                 'tramite_id' => '1',
                 'matricula_id' => 20160091,
-                'fecha' => '2020-09-22 00:00:00'
+                'fecha' => '2020-09-22 00:00:00',
             ]);
 
         return $caja; //
