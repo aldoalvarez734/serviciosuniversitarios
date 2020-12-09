@@ -82,3 +82,13 @@ Route::get('/constancia ', [App\Http\Controllers\constanciaController::class, 'i
 // Lulu
 Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class, 'index']);
 Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class, 'index']);
+Route::get('/constancia ', [App\Http\Controllers\constanciaController::class, 'index']);
+
+//Rutas de Historial de trámites Abrham
+Route::get('/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class, 'index']);
+Route::get('/nuevo/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class, 'create']);
+Route::post('/guardar/historial_tramites', [App\Http\Controllers\HistorialtramitesController::class, 'store']);
+
+//Lulu
+Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class, 'index']);
+Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class, 'index']);
