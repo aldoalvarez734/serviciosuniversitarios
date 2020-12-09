@@ -15,7 +15,7 @@ class constanciaController extends Controller
     public function index()
     {
         //
-        return view('constanciaController.index');
+        return view('controlescolar.constancias.index');
     }
 
     /**
