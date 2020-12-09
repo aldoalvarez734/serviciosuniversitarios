@@ -78,3 +78,6 @@ Route::get('/nuevoprestamo', [App\Http\Controllers\PrestamosController::class,'c
 
 //Rutas de Cruz
 Route::get('/constancia ', [App\Http\Controllers\constanciaController::class,'index']);
+
+//Lulu
+Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class,'index']);
