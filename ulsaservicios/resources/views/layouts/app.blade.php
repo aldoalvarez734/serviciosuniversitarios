@@ -236,7 +236,7 @@ to get the desired effect
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="/boleta" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Solicitud de Boleta</p>
                 </a>

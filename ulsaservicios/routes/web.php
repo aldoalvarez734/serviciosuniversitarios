@@ -81,4 +81,4 @@ Route::get('/constancia ', [App\Http\Controllers\constanciaController::class,'in
 
 //Lulu
 Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class,'index']);
-Route::get('/boleta', [App\Http\Controllers\BoletaControlle::class,'index']);
+Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class,'index']);

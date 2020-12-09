@@ -6,12 +6,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Historial de trámites</h1>
+            <h1>Solicitud de Calificaciones</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Control Escolar</a></li>
-              <li class="breadcrumb-item active">Historial de trámites de {{ Auth::user()->name }}</li>
+              <li class="breadcrumb-item active">Solicitar calificaciones de {{ Auth::user()->name }}</li>
             </ol>
           </div>
         </div>
@@ -21,146 +21,55 @@
     <!-- Main content -->
     <section class="content">
 
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Historial de trámites de {{ Auth::user()->name }}</h3>
+<div >
 
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fas fa-minus"></i></button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fas fa-times"></i></button>
-          </div>
-        </div>
-        <div class="card-body p-0">
-          <table class="table table-striped projects">
-              <thead>
-                  <tr>
-                      <th style="width: 1%">
-                          #
-                      </th>
-                      <th style="width: 20%">
-                          Título
-                      </th>
-                      <th style="width: 30%">
-                          Campus
-                      </th>
-                      <th>
-                          Devuelto
-                      </th>
-                      <th style="width: 8%" class="text-center">
-                          Status
-                      </th>
-                      <th style="width: 2%">
-                      </th>
-                  </tr>
-              </thead>
+<div class="box box-default">
+            <div class="box-header with-border">
+              <i class="fa fa-bullhorn"></i>
 
-              <tbody>
-                  <tr>
-                      <td>
-                          1
-                      </td>
-                      <td>
-                          <a>
-                              Boleta Noveno Semestre 
-                          </a>
-                          <br/>
-                          <small>
-                              Solicitado 08.12.2020
-                          </small>
-                      </td>
-                      <td> 1
-                         
-                      </td>
-                      <td> 15. 01. 2019
-                      </td>
-                      <td class="project-state">
-                          <span class="badge badge-success" >Entregado</span>
-                      </td>
-                      <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="/libros">
-                              <i class="fas fa-folder">
-                              </i>
-                              View
-                          </a>
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
-                      </td>
-                  </tr>
+              <h3 class="box-title">Elige un tipo de servicio</h3>
+              <br>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="callout callout-danger">
+                <h4>Boleta</h4>
 
-                   <div class="card-body p-0">
-          <table class="table table-striped projects">
-             
-<!--               
-              <tbody>
-                  <tr>
-                      <td>
-                          2
-                      </td>
-                      <td style="width: 20%">
-                          <a>
-                              Don Quijote de la Mancha
-                          </a>
-                          <br/>
-                          <small>
-                              Solicitado 11.01.2019
-                          </small>
-                      </td>
-                      <td style="width: 30%"> 1  
+                <p>Boleta con tus calificaciones semestrales.</p>
+               
+                <div class="form-group">
+                <label>Selecciona el semestre</label>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                  </select>
+                </div>
 
-                      </td>
-                      <td  style="width: 8%" class="text-center"> pendiente
-                      </td>
-                      <th style="width: 2%">
-                      </th>
+                <button type="button" class="btn btn-block btn-danger">Solicitar</button>
+              </div>
+              <div class="callout callout-info">
+                <h4>Historial académico</h4>
 
-                      <td class="project-state" >
-                          <span class="badge badge-success" >Prestado</span>
+                <p>Historial con todas las calificaciones a lo largo de tu carrera.</p>
+                <button type="button" class="btn btn-block btn-primary" data-toggle="modal" data-target="#myModal">Solicitar</button>
 
-                      </td>
-                      <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="#">
-                              <i class="fas fa-folder">
-                              </i>
-                              View
-                          </a>
-                          <a class="btn btn-info btn-sm" href="#">
-                              <i class="fas fa-pencil-alt">
-                              </i>
-                              Edit
-                          </a>
-                          <a class="btn btn-danger btn-sm" href="#">
-                              <i class="fas fa-trash">
-                              </i>
-                              Delete
-                          </a>
-                      </td>
-                  </tr> -->
-
-                  
-
-
+              </div>
 
             
-
-
-
-              </tbody>
-          </table>
-        </div>
-        <!-- /.card-body -->
-      </div>
-      <!-- /.card -->
+              
+              
+            </div>
+            <!-- /.box-body -->
+          </div>
+</div>
+    
 
     </section>
   
