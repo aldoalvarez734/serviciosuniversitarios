@@ -24,7 +24,7 @@ class CreateLibrosTable extends Migration
             $table->integer('statuslibro_id');
             $table->timestamps();
         });
-    }
+    } 
 
     /**
      * Reverse the migrations.
