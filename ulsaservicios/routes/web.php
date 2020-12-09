@@ -92,3 +92,5 @@ Route::post('/guardar/historial_tramites', [App\Http\Controllers\Historialtramit
 //Lulu
 Route::get('/solicitudes', [App\Http\Controllers\SolicitudesController::class, 'index']);
 Route::get('/boleta', [App\Http\Controllers\BoletasControlle::class, 'index']);
+
+Route::get('/verlibros', [App\Http\Controllers\verLibrosController::class, 'index']);
