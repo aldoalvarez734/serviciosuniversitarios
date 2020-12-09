@@ -257,6 +257,12 @@ to get the desired effect
                                                   <p>Solicitud de libros</p>
                                               </a>
                                           </li>
+                                          <li class="nav-item">
+                                              <a href="/prestamo" class="nav-link">
+                                                  <i class="far fa-circle nav-icon"></i>
+                                                  <p> Prestamo </p>
+                                              </a>
+                                          </li>
                                       </ul>
                                   </li>
                                   <!-- Modulo de biblioteca -->
