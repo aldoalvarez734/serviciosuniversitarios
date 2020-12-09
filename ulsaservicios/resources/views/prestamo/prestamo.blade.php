@@ -7,12 +7,12 @@
             <div class="container-fluid">
                 <div class="mb-2 row">
                     <div class="col-sm-6">
-                        <h1>DataTables</h1>
+                        <h1>Prestamos salon Biblioteca</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">DataTables</li>
+                            <li class="breadcrumb-item active">Prestamos salon Biblioteca</li>
                         </ol>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                                <h3 class="card-title">Registro de los prestamos del salon de biblioteca😘</h3>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
@@ -35,37 +35,24 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Matrícula</th>
-                                            <th>Trámite</th>
-                                            <th>Fecha</th>
-                                            <th>Costo</th>
-                                            <th>Cantidad</th>
-                                            <th>Importe</th>
+                                            <th>Oficina</th>
+                                            <th>Fecha Prestamo</th>
+                                            <th>fecha prestamo fin</th>
+                                            <th>estatus prestamo</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($caja as $cajas)
+                                        @foreach ($prestamoq as $prestamos)
                                             <tr>
-                                                <td>{{ $cajas->id }}</td>
-                                                <td>{{ $cajas->matricula_id }}</td>
-                                                <td>{{ $cajas->tramite_id }}</td>
-                                                <td>{{ $cajas->fecha }}</td>
-                                                <td>{{ $cajas->costo }}</td>
-                                                <td>{{ $cajas->cantidad }}</td>
-                                                <td>{{ $cajas->importe }}</td>
+                                                <td>{{ $prestamos->idprestamos }}</td>
+                                                <td>{{ $prestamos->matricula_id }}</td>
+                                                <td>{{ $prestamos->oficina_id }}</td>
+                                                <td>{{ $prestamos->fecha_prestamo }}</td>
+                                                <td>{{ $prestamos->fecha_prestamo_fin }}</td>
+                                                <td>{{ $prestamos->estatus_prestamo_id }}</td>
                                             </tr>
                                         @endforeach
                                     </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Matrícula</th>
-                                            <th>Trámite</th>
-                                            <th>Fecha</th>
-                                            <th>Costo</th>
-                                            <th>Cantidad</th>
-                                            <th>Importe</th>
-                                        </tr>
-                                    </tfoot>
                                 </table>
                             </div>
                             <!-- /.card-body -->
