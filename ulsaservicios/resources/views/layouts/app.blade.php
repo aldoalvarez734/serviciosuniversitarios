@@ -225,6 +225,12 @@ to get the desired effect
                                           <p>Renovaciones</p>
                                       </a>
                                   </li>
+                                  <li class="nav-item">
+                                      <a href="/verlibros" class="nav-link">
+                                          <i class="far fa-circle nav-icon"></i>
+                                          <p>Ver Libros</p>
+                                      </a>
+                                  </li>
 
                                   <li class="nav-item">
                                       <a href="pages/widgets.html" class="nav-link">
