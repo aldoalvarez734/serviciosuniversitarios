@@ -11,8 +11,8 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Control Escolar</a></li>
-              <li class="breadcrumb-item active">Solicitar calificaciones de {{ Auth::user()->name }}</li>
+              <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+              <li class="breadcrumb-item active">Ver Libros</li>
             </ol>
           </div>
         </div>
