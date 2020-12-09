@@ -249,7 +249,7 @@ to get the desired effect
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./index.html" class="nav-link">
+                                    <a href="./caja" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Caja</p>
                                     </a>
@@ -318,7 +318,7 @@ to get the desired effect
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="./caja" class="nav-link">
+                                    <a href="./index.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>CARRERAS</p>
                                     </a>
